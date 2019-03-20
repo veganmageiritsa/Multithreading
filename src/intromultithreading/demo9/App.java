@@ -32,14 +32,13 @@ public class App {
     }
 
     private static void consumer(){
-        Random random=new Random();
         while (true){
             try {
                 Thread.sleep(100);
-                if (random.nextInt(10)==0) {
+//                if (random.nextInt(10)==0) {
                     Integer number = queue.take();
                     System.out.println("Value consumed is : " +number +" Queue size is : " + queue.size());
-                }
+//                }
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
