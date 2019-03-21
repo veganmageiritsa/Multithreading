@@ -27,5 +27,15 @@ public class App {
         }catch(Exception e) {
             e.printStackTrace();
         }
+        //        CompletableFuture<List<LastConfigReport>> completableFuture =
+//                CompletableFuture.supplyAsync(() ->jpaQuery().selectFrom(r).where(bb).fetch());
+//        try {
+//            List<LastConfigReport> completableFutureResults=completableFuture.get();
+//            return completableFutureResults;
+//        } catch (InterruptedException e) {
+//            e.printStackTrace();
+//        } catch (ExecutionException e) {
+//            e.printStackTrace();
+//        }
     }
 }
