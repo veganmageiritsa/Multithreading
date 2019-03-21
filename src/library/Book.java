@@ -22,6 +22,6 @@ public class Book {
     }
 
     public String toString() {
-        return "Book" + id;
+        return "Book " + id;
     }
 }

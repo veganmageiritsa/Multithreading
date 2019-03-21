@@ -30,6 +30,6 @@ public class Student implements Runnable{
     }
 
     public String toString() {
-        return "Student" + id;
+        return "Student " + id;
     }
 }
